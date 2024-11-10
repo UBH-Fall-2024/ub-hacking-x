@@ -3,19 +3,16 @@
 
 # Weather Insights
 
-A real-time web dashboard providing environmental insights and university statistics tailored for the University at Buffalo (UB). This dashboard covers weather, air quality, local events, traffic, and UB's academic rankings.
+A real-time web dashboard providing environmental insights and statistics 
 
 ## Project Features
 - **Weather**: Live weather updates specific to Buffalo, NY.
 - **Air Quality**: Current Air Quality Index (AQI) and primary pollutant levels.
-- **Local Events**: Upcoming events in and around the UB campus.
-- **Traffic**: Real-time traffic data for easier campus navigation.
-- **University Rankings**: Updated UB rankings, student demographics, and faculty-to-student ratio.
 
 ## Technologies
 - **Backend**: Python (Flask)
 - **Frontend**: HTML, CSS, JavaScript
-- **APIs**: OpenWeatherMap, IQAir, Eventful, Google Maps, College Scorecard, FEMA
+- **API**: IQAir
 
 ## Setup Guide
 
