@@ -1,39 +1,24 @@
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - www.codingnepalweb.com -->
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Glassmorphism Login Form | CodingNepal</title>
-  <link rel="stylesheet" href="style.css">
+  <title>UB Hackathon X</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
 </head>
 <body>
   <div class="wrapper">
-    <form action="#">
-      <h2>Login</h2>
-        <div class="input-field">
-        <input type="text" required>
-        <label>Enter your email</label>
+    <form action="/home" method="POST">
+      <div class="input-field">
+        <input type="text" name="state" value="{{ state }}" required>
+        <label>State</label>
       </div>
       <div class="input-field">
-        <input type="password" required>
-        <label>Enter your password</label>
+        <input type="text" name="city" value="{{ city }}" required>
+        <label>City</label>
       </div>
-      <div class="forget">
-        <label for="remember">
-          <input type="checkbox" id="remember">
-          <p>Remember me</p>
-        </label>
-        <a href="#">Forgot password?</a>
-      </div>
-      <a href="index2.html" class="button">Log In</a>
-
-      <!-- <a href="index.html">
-        <button>Log In</button>
-      </a>-->
-      <div class="register">
-        <p>Don't have an account? <a href="#">Register</a></p>
-      </div>
+      
+      <button type="submit" class="button">Search</button>
     </form>
   </div>
 </body>
