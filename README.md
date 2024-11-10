@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/_U2QbDVP)
 
-# Fitness Tracker 1.0
-# UB Campus Environmental & Rankings Dashboard
+
+# Weather Insights
 
 A real-time web dashboard providing environmental insights and university statistics tailored for the University at Buffalo (UB). This dashboard covers weather, air quality, local events, traffic, and UB's academic rankings.
 
@@ -21,5 +21,5 @@ A real-time web dashboard providing environmental insights and university statis
 
 ### 1. Clone the Repository
    ```bash
-   git clone https://github.com/your-username/ub-campus-dashboard.git
-   cd ub-campus-dashboard
+   install python and flask
+   ./server.py 
