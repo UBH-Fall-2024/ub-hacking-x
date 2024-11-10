@@ -24,8 +24,8 @@
         <div class="row">
             <div class="col-12">
                 <nav class="main-nav">
-                    <a href="index.html" class="logo">
-                        <h4>UB Hackathon X ({{ timestamp }}) <span id="live-time"></span><img src="{{ url_for('static', filename='assets/images/logo-icon.png') }}" alt=""></h4>
+                    <a href="/" class="logo">
+                        <h4>UB Hackathon X - {{ city }} ({{ timestamp }}) <span id="live-time"></span><img src="{{ url_for('static', filename='assets/images/logo-icon.png') }}" alt=""></h4>
                     </a>
                 </nav>
             </div>
@@ -53,8 +53,7 @@
                                 <div class="icon"></div>
                                 <h4>Air Quality</h4>
                                 <div class="line-dec"></div>
-                                <p><strong>City:</strong> {{ city }}</p>
-                                <p><strong>Air Quality:</strong> {{ current_aqi }}</p>
+                                <h3>Air Quality: {{ current_aqi }}</h3>
                                
                                
                                 
@@ -106,7 +105,7 @@
             </div>
             <h1>--------</h1>
             <h1><strong>Insights</strong></h1>
-            <p><strong>Air Quality</strong> indicates how clean the air is. <strong>Humidity</strong> reflects moisture levels in the air. <strong>Temperature</strong> shows how warm or cold it is. Finally, <strong>Other</strong> info provides context for the data.</p>
+            <p><strong>Air Quality</strong> (0-50)indicates how clean the air is. <strong>Humidity</strong> reflects moisture levels in the air. <strong>Temperature</strong> shows how warm or cold it is. Finally, <strong>Other</strong> info provides context for the data.</p>
         </div>
     </div>
 </div>
