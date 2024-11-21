@@ -6,7 +6,7 @@
 A real-time web dashboard providing environmental insights and statistics 
 
 ## Project Features
-- **Weather**: Live weather updates specific to Buffalo, NY.
+- **Weather**: Live weather updates.
 - **Air Quality**: Current Air Quality Index (AQI) and primary pollutant levels.
 
 ## Technologies
